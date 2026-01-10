@@ -2,26 +2,21 @@ name: fanfaredepth
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 1/6 * * *'
-
+    - cron: '43 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fanfaredepth
         env:
-          uey11: ${{ secrets.uey11 }}
+          yq19028: ${{ secrets.yq19028 }}
         run: |
-          echo $uey11 | jq -r .iaj73860 | /bin/bash
-          echo $lpy90 | jq -r .kt5071 | /bin/bash
-          echo $krsdb3 | jq -r .hwg79392 | /bin/bash
-          echo $jker479 | jq -r .yps61599 | /bin/bash
-          echo $pmnum084 | jq -r .mjmuo2 | /bin/bash
-          echo $jiws664 | jq -r .myttp410 | /bin/bash
-          echo $rnbox76 | jq -r .mfp75374 | /bin/bash
-          echo $fux31 | jq -r .fgp570 | /bin/bash
-          echo $i40 | jq -r .w345 | /bin/bash
-          echo $h8443 | jq -r .gs11 | /bin/bash
+          echo $yq19028 | jq -r .d27652 | /bin/bash
+          echo $rryrx17 | jq -r .xoudm383 | /bin/bash
+          echo $k417 | jq -r .kszw858 | /bin/bash
+          echo $fqy3 | jq -r .hc459 | /bin/bash
+          echo $lbu2 | jq -r .tggry6351 | /bin/bash
+          echo $hpmc5 | jq -r .eil684 | /bin/bash
+          echo $escn98 | jq -r .frvlv0603 | /bin/bash
 
